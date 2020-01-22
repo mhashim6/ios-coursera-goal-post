@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		5E86C7CC23D7284B007B702A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86C7CB23D7284B007B702A /* AppDelegate.swift */; };
 		5E86C7CE23D7284B007B702A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86C7CD23D7284B007B702A /* SceneDelegate.swift */; };
-		5E86C7D023D7284B007B702A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86C7CF23D7284B007B702A /* ViewController.swift */; };
+		5E86C7D023D7284B007B702A /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86C7CF23D7284B007B702A /* GoalsVC.swift */; };
 		5E86C7D323D7284B007B702A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E86C7D123D7284B007B702A /* Main.storyboard */; };
 		5E86C7D623D7284B007B702A /* coursera_goal_post.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E86C7D423D7284B007B702A /* coursera_goal_post.xcdatamodeld */; };
 		5E86C7D823D7284E007B702A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E86C7D723D7284E007B702A /* Assets.xcassets */; };
 		5E86C7DB23D7284E007B702A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E86C7D923D7284E007B702A /* LaunchScreen.storyboard */; };
 		5E86C7E623D7284F007B702A /* coursera_goal_postTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86C7E523D7284F007B702A /* coursera_goal_postTests.swift */; };
+		5E86C7F623D745BF007B702A /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86C7F523D745BF007B702A /* GoalCell.swift */; };
+		5E86C7F823D75A60007B702A /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86C7F723D75A60007B702A /* GoalType.swift */; };
+		5E86C7FA23D76299007B702A /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86C7F923D76299007B702A /* CreateGoalVC.swift */; };
+		5EADE8A223D846D7003A549B /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EADE8A123D846D7003A549B /* UIViewControllerExt.swift */; };
+		5EADE8A423D853ED003A549B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EADE8A323D853ED003A549B /* UIViewExt.swift */; };
+		5EADE8A623D8730F003A549B /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EADE8A523D8730F003A549B /* UIButtonExt.swift */; };
+		5EADE8A823D879A5003A549B /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EADE8A723D879A5003A549B /* FinishVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +38,7 @@
 		5E86C7C823D7284B007B702A /* coursera_goal_post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coursera_goal_post.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E86C7CB23D7284B007B702A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E86C7CD23D7284B007B702A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E86C7CF23D7284B007B702A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E86C7CF23D7284B007B702A /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		5E86C7D223D7284B007B702A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E86C7D523D7284B007B702A /* coursera_goal_post.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coursera_goal_post.xcdatamodel; sourceTree = "<group>"; };
 		5E86C7D723D7284E007B702A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +47,13 @@
 		5E86C7E123D7284F007B702A /* coursera_goal_postTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coursera_goal_postTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E86C7E523D7284F007B702A /* coursera_goal_postTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursera_goal_postTests.swift; sourceTree = "<group>"; };
 		5E86C7E723D7284F007B702A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E86C7F523D745BF007B702A /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		5E86C7F723D75A60007B702A /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		5E86C7F923D76299007B702A /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		5EADE8A123D846D7003A549B /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		5EADE8A323D853ED003A549B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		5EADE8A523D8730F003A549B /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		5EADE8A723D879A5003A549B /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +95,12 @@
 		5E86C7CA23D7284B007B702A /* coursera_goal_post */ = {
 			isa = PBXGroup;
 			children = (
+				5E86C7F323D72E89007B702A /* View */,
+				5E86C7F223D72E79007B702A /* Extensions */,
+				5E86C7F123D72E73007B702A /* Enums */,
+				5E86C7F023D72E65007B702A /* Controller */,
 				5E86C7CB23D7284B007B702A /* AppDelegate.swift */,
 				5E86C7CD23D7284B007B702A /* SceneDelegate.swift */,
-				5E86C7CF23D7284B007B702A /* ViewController.swift */,
 				5E86C7D123D7284B007B702A /* Main.storyboard */,
 				5E86C7D723D7284E007B702A /* Assets.xcassets */,
 				5E86C7D923D7284E007B702A /* LaunchScreen.storyboard */,
@@ -100,6 +117,42 @@
 				5E86C7E723D7284F007B702A /* Info.plist */,
 			);
 			path = coursera_goal_postTests;
+			sourceTree = "<group>";
+		};
+		5E86C7F023D72E65007B702A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E86C7CF23D7284B007B702A /* GoalsVC.swift */,
+				5E86C7F923D76299007B702A /* CreateGoalVC.swift */,
+				5EADE8A723D879A5003A549B /* FinishVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E86C7F123D72E73007B702A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5E86C7F723D75A60007B702A /* GoalType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		5E86C7F223D72E79007B702A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5EADE8A123D846D7003A549B /* UIViewControllerExt.swift */,
+				5EADE8A323D853ED003A549B /* UIViewExt.swift */,
+				5EADE8A523D8730F003A549B /* UIButtonExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E86C7F323D72E89007B702A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E86C7F523D745BF007B702A /* GoalCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,9 +256,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E86C7D023D7284B007B702A /* ViewController.swift in Sources */,
+				5EADE8A423D853ED003A549B /* UIViewExt.swift in Sources */,
+				5EADE8A623D8730F003A549B /* UIButtonExt.swift in Sources */,
+				5E86C7D023D7284B007B702A /* GoalsVC.swift in Sources */,
 				5E86C7CC23D7284B007B702A /* AppDelegate.swift in Sources */,
+				5EADE8A223D846D7003A549B /* UIViewControllerExt.swift in Sources */,
+				5E86C7F823D75A60007B702A /* GoalType.swift in Sources */,
 				5E86C7D623D7284B007B702A /* coursera_goal_post.xcdatamodeld in Sources */,
+				5E86C7FA23D76299007B702A /* CreateGoalVC.swift in Sources */,
+				5EADE8A823D879A5003A549B /* FinishVC.swift in Sources */,
+				5E86C7F623D745BF007B702A /* GoalCell.swift in Sources */,
 				5E86C7CE23D7284B007B702A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
