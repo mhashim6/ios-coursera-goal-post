@@ -10,7 +10,7 @@
         <!--GoalsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="GoalsVC" id="BYZ-38-t0r" customClass="GoalsVC" customModule="coursera_goal_post" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalsVC" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="GoalsVC" customModule="coursera_goal_post" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +69,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xR2-OK-IIq">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xR2-OK-IIq">
                                 <rect key="frame" x="0.0" y="114" width="414" height="748"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
@@ -179,7 +179,7 @@
         <!--Create GoalVC-->
         <scene sceneID="fnE-gA-T9U">
             <objects>
-                <viewController storyboardIdentifier="CreateGoalVC" id="huM-J2-H2l" customClass="CreateGoalVC" customModule="coursera_goal_post" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" modalPresentationStyle="fullScreen" id="huM-J2-H2l" customClass="CreateGoalVC" customModule="coursera_goal_post" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7jZ-Ur-pDo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -320,7 +320,7 @@
         <!--FinishVC-->
         <scene sceneID="WYx-EO-vL4">
             <objects>
-                <viewController storyboardIdentifier="FinishVC" id="7kN-w9-hR9" customClass="FinishVC" customModule="coursera_goal_post" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FinishVC" modalPresentationStyle="fullScreen" id="7kN-w9-hR9" customClass="FinishVC" customModule="coursera_goal_post" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="js3-3l-Udl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -348,6 +348,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFX-WB-kl9">
                                         <rect key="frame" x="16" y="34" width="14" height="25"/>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backClicked:" destination="7kN-w9-hR9" eventType="touchUpInside" id="fC9-lR-0TS"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.43546807770000001" green="0.76494747399999996" blue="0.365362823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
